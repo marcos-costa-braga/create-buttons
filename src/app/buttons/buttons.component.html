@@ -1,0 +1,8 @@
+<div class="container-fluid" style="margin: 10px;">
+  <h1 style="text-align: center;">Crie Botões Infinitos</h1>
+  <div class="row" style="display: inline;">
+    <div class="col-xs-1" style="margin: 10px;" *ngFor="let botao of buttons">
+      <button class="btn btn-primary" style="width: 55px;" (click)="onCreateButton()">{{ botao }}</button>
+    </div>
+  </div>
+</div>
